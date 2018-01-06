@@ -4,7 +4,7 @@ const jaeger = require('jaeger-client')
 const UDPSender = require('jaeger-client/dist/src/reporters/udp_sender').default
 
 const sampler = new jaeger.RateLimitingSampler(1)
-const reporter = new jaeger.RemoteReporter(new UDPSender({ host: '121.40.129.45' }))
+const reporter = new jaeger.RemoteReporter(new UDPSender())
 const tracer = new jaeger.Tracer('serviceB', reporter, sampler, {
   tags: {
     gitTag: 'foo'
