@@ -1,5 +1,5 @@
 const http = require('http')
-const Instrument = require('@risingstack/opentracing-auto')
+const Instrument = require('shimo-opentracing-auto')
 const jaeger = require('jaeger-client')
 const UDPSender = require('jaeger-client/dist/src/reporters/udp_sender').default
 

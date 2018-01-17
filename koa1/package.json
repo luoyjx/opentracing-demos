@@ -18,12 +18,12 @@
   },
   "homepage": "https://github.com/luoyjx/opentracing-demos#readme",
   "dependencies": {
-    "@risingstack/opentracing-auto": "^1.5.2",
     "jaeger-client": "^3.7.0",
     "koa": "^1.4.1",
     "opentracing": "^0.14.1",
     "request": "^2.83.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "shimo-opentracing-auto": "^1.5.2"
   },
   "devDependencies": {
     "eslint": "^4.14.0",

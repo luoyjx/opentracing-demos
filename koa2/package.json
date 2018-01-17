@@ -13,6 +13,7 @@
     "jaeger-client": "^3.7.0",
     "koa": "^2.4.1",
     "request": "^2.83.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "shimo-opentracing-auto": "^1.5.2"
   }
 }
